@@ -10,9 +10,14 @@ package proyecto;
  */
 public class Calculadora {
     //Metodo para sumar dos enteros
-    public static void sumar (int num1, int num2){
+    public void sumar (int num1, int num2){
         int res;
         res = num1+num2;
+        System.out.println("El resultado es: "+res);
+    }
+    public void restar (int num1, int num2){
+        int res;
+        res = num1-num2;
         System.out.println("El resultado es: "+res);
     }
 }
